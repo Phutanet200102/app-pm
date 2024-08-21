@@ -68,18 +68,7 @@ class _HomeState extends State<Home> {
           ],
         ),
         body: Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.red,
-                Colors.green,
-                Colors.blue,
-                Colors.orange,
-              ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-          ),
+          color: Colors.white,
           child: Center(
             child: Padding(
               padding: const EdgeInsets.all(32.0),
@@ -87,11 +76,11 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   const Text(
-                    'Welcome! , PM 2.5',
+                    'AirPurifier',
                     style: TextStyle(
-                      fontSize: 24,
+                      fontSize: 50,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   const SizedBox(height: 32),
@@ -112,7 +101,7 @@ class _HomeState extends State<Home> {
                           },
                           style: ButtonStyle(
                             backgroundColor:
-                                MaterialStateProperty.all<Color>(Colors.red),
+                                MaterialStateProperty.all<Color>(Colors.black),
                           ),
                           child: Column(
                             children: const [
@@ -138,7 +127,7 @@ class _HomeState extends State<Home> {
                           },
                           style: ButtonStyle(
                             backgroundColor:
-                                MaterialStateProperty.all<Color>(Colors.green),
+                                MaterialStateProperty.all<Color>(Colors.black),
                           ),
                           child: Column(
                             children: const [
@@ -169,7 +158,7 @@ class _HomeState extends State<Home> {
                           },
                           style: ButtonStyle(
                             backgroundColor:
-                                MaterialStateProperty.all<Color>(Colors.blue),
+                                MaterialStateProperty.all<Color>(Colors.black),
                           ),
                           child: Column(
                             children: const [
@@ -195,7 +184,7 @@ class _HomeState extends State<Home> {
                           },
                           style: ButtonStyle(
                             backgroundColor:
-                                MaterialStateProperty.all<Color>(Colors.orange),
+                                MaterialStateProperty.all<Color>(Colors.black),
                           ),
                           child: Column(
                             children: const [

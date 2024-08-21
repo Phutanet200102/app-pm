@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:local_notification_app_demo/home.dart';
 import 'package:local_notification_app_demo/menu/record.dart';
-import 'package:local_notification_app_demo/notifi_service.dart';
+import 'package:local_notification_app_demo/server/notifi_service.dart';
 
 import '../server/service.dart';
 
@@ -81,7 +81,7 @@ class _DisplayPageState extends State<DisplayPage> {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Display', style: TextStyle(color: Colors.white)),
-          backgroundColor: Colors.black54,
+          backgroundColor: Colors.black,
           leading: IconButton(
             icon: Icon(Icons.arrow_back, color: Colors.white),
             onPressed: () {

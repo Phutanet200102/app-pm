@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:local_notification_app_demo/home.dart';
-import 'package:local_notification_app_demo/notifi_service.dart';
 import 'package:local_notification_app_demo/register.dart';
+import 'package:local_notification_app_demo/server/notifi_service.dart';
 import 'package:local_notification_app_demo/server/service.dart';
 
 void main() async {
